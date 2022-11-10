@@ -7,9 +7,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 > Desktop screenshot
-> ![](./screenshots/desktop.png)
-> Mobile screenshot
-> ![](./screenshots/mobile.png)
+
+- ![](./screenshots/desktop.png)
+  > Mobile screenshot
+- ![](./screenshots/mobile.png)
 
 ### Links
 
