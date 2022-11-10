@@ -6,13 +6,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshots/desktop.png)
-![](./screenshots/mobile.png)
+> Desktop screenshot
+> ![](./screenshots/desktop.png)
+> Mobile screenshot
+> ![](./screenshots/mobile.png)
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://bilel-mwihbi.github.io/QR-code-component/)
 
 ### Author
 
-- Frontend Mentor - [@@Bilel-mwihbi](https://www.frontendmentor.io/profile/Bilel-mwihbi)
+- Frontend Mentor - [@Bilel-mwihbi](https://www.frontendmentor.io/profile/Bilel-mwihbi)

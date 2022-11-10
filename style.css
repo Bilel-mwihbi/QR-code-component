@@ -29,13 +29,13 @@ img,
 main {
     border-radius: 10px;
 }
-.article > * {
+.description > * {
     margin: 0.8em auto;
 }
-.article h2 {
+.description h1 {
     color: var(--Dark-blue);
 }
-.article p {
-    font-size: 15px;
+.description p {
+    font-size: 1em;
     color: var(--grayish-blue);
 }
