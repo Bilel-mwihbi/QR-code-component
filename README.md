@@ -8,15 +8,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 > Desktop screenshot
 
- ![](./screenshots/desktop.png)
+![](./screenshots/desktop.png)
+
 > Mobile screenshot
 
- ![](./screenshots/mobile.png)
+![](./screenshots/mobile.png)
 
 ### Links
 
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-VO3uje1L_t)
 - Live Site URL: [GitHub Pages](https://bilel-mwihbi.github.io/QR-code-component/)
 
 ### Author
 
-- Frontend Mentor - [@Bilel-mwihbi](https://www.frontendmentor.io/profile/Bilel-mwihbi)
+- Frontend Mentor: [@Bilel-mwihbi](https://www.frontendmentor.io/profile/Bilel-mwihbi)
