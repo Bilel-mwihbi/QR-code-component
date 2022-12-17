@@ -1,41 +1,61 @@
-* {
-    font-family: 'Outfit', sans-serif;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0;
-}
 :root {
-    --white-color-white: hsl(0, 0%, 100%);
+    --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
 }
+/* CSS reset*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html, body {
+    min-height: 100vh;
+}
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img {
+    display: block; 
+    max-width: 100%;
+}
+body {
+    display: grid;
+    place-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
     background-color: var(--light-gray);
 }
 main {
-    width: 320px;
+    max-width: 30ch;
     padding: 1em;
-    background-color: var(--white-color-white);
-}
-img {
-    width: 100%;
+    text-align: center;
+    background-color: var(--white);
+    -moz-box-shadow:0px 6px 22px -9px var(--grayish-blue);
+    -webkit-box-shadow:0px 6px 22px -9px var(--grayish-blue);
+    box-shadow: 0px 6px 22px -9px var(--grayish-blue);
 }
 img,
 main {
     border-radius: 10px;
 }
-.description > * {
-    margin: 0.8em auto;
+.card-content > * {
+    margin-block: 1em; 
+    margin-inline: auto;
+
 }
-.description h1 {
+.card-content h1 {
+    max-width: 17ch;
+    font-size: 1.5em;
+    line-height: 1.1;
+    font-weight: 700;
     color: var(--Dark-blue);
 }
-.description p {
-    font-size: 1em;
+.card-content p {
+    max-width: 26ch;
+    font-weight: 400;
     color: var(--grayish-blue);
 }
