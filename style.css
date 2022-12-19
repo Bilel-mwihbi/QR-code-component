@@ -26,12 +26,13 @@ body {
     display: grid;
     place-content: center;
     font-family: 'Outfit', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.938rem;
     background-color: var(--light-gray);
 }
 main {
     max-width: 30ch;
     padding: 1em;
+    margin: 1em;
     text-align: center;
     background-color: var(--white);
     -moz-box-shadow:0px 6px 22px -9px var(--grayish-blue);
@@ -42,19 +43,19 @@ img,
 main {
     border-radius: 10px;
 }
-.card-content > * {
+p,
+h1 {
     margin-block: 1em; 
     margin-inline: auto;
-
 }
-.card-content h1 {
+h1 {
     max-width: 17ch;
-    font-size: 1.5em;
+    font-size: 1.3rem;
     line-height: 1.1;
     font-weight: 700;
     color: var(--Dark-blue);
 }
-.card-content p {
+p {
     max-width: 26ch;
     font-weight: 400;
     color: var(--grayish-blue);
